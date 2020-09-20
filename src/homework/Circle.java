@@ -4,10 +4,10 @@ import java.awt.*;
 import java.awt.geom.*;
 
 /**
- * A circle that can be manipulated and that draws itself on a canvas.
- *
- * @author  Michael Kölling and David J. Barnes
- * @version 1.0  (15 July 2000)
+  A circle that can be manipulated and that draws itself on a canvas.
+
+  @author  Michael Kölling and David J. Barnes
+  @version 1.0  (15 July 2000)
  */
 
 public class Circle
