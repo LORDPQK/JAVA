@@ -167,6 +167,10 @@ public class Circle
         color = newColor;
         draw();
     }
+    public void sunset(int distance)
+    {
+        moveVertical(distance);
+    }
 
     /*
      * Draw the circle with current specifications on screen.
@@ -177,7 +181,7 @@ public class Circle
             Canvas canvas = Canvas.getCanvas();
             canvas.draw(this, color, new Ellipse2D.Double(xPosition, yPosition,
                     diameter, diameter));
-            canvas.wait(10);
+            canvas.wait(10);;
         }
     }
 
