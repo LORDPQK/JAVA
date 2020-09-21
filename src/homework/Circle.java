@@ -167,11 +167,6 @@ public class Circle
         color = newColor;
         draw();
     }
-    public void sunset(int distance)
-    {
-        moveVertical(distance);
-    }
-
     /*
      * Draw the circle with current specifications on screen.
      */

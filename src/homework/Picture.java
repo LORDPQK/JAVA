@@ -83,11 +83,16 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    public void sunset()
+    {
+        sun.slowMoveVertical(300);
+    }
 
     public static void main(String[] args) {
         Picture picture = new Picture();
 //        picture.setBlackAndWhite();
         picture.draw();;
+        picture.sunset();
     }
 
 }
